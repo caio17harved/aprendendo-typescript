@@ -22,7 +22,7 @@ for(let counter = 1; counter <=  20; counter++){
   console.log(counter);
 
   if(counter == 20){
-  for(let counter = 20; counter >= 10; counter--){
+  for(let counter = 10; counter >= 10; counter--){
       console.log(counter);
     }
   }
