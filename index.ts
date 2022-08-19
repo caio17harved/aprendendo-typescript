@@ -2,29 +2,33 @@
 import './style.css';
 
 //declaração do title com string
-let title: string = "Myapp"
- document.getElementById('app.title')=innerHTML;
-//dentro do h1 colocando o template string 
-appDiv.innerHTML = `
-<h1>${title}</h1>
-<hr/>
-<p>Paragrafo qualquer</p>
-`;
+let title: string = "Myapp";
+document.getElementById('app.title').innerHTML = title;
 
 
-console.log("ola mundo");
+let counter: number = 0;
 
-//laços
-for(let i = 1; i <=  10; i++){
-  console.log(i);
-}
+let intervalId = setInterval(() => {
+  counter++;
+  let counterDiv = document.getElementById('app.counter').innerHTML = counter.toString()
+}, 1000);
 
-//lqços e condicionais
-for(let i = 1; i <= 10; i++){
-  if(i%2==0){
-    console.log("Os numeros para são:" + " "+ i)
+
+
+
+
+
+for(let counter = 1; counter <=  20; counter++){
+  console.log(counter);
+
+if(counter == 20){
+for(let counter = 20; counter >= 10; counter--){
+      console.log(counter);
+    }
   }
 }
+
+
 
 
 
