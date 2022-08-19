@@ -1,9 +1,16 @@
 // Import stylesheets
 import './style.css';
 
-// Write TypeScript code!
+//declaração do title com string
+let title: string = "Myapp"
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+//dentro do h1 colocando o template string 
+appDiv.innerHTML = `
+<h1>${title}</h1>
+<hr/>
+<p>Paragrafo qualquer</p>
+`
+
 
 console.log("ola mundo");
 
@@ -18,5 +25,7 @@ for(let i = 1; i <= 10; i++){
     console.log("Os numeros para são:" + " "+ i)
   }
 }
+
+
 
 
