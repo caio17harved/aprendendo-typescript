@@ -9,7 +9,7 @@ appDiv.innerHTML = `
 <h1>${title}</h1>
 <hr/>
 <p>Paragrafo qualquer</p>
-`
+`;
 
 
 console.log("ola mundo");
