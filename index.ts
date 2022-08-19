@@ -3,7 +3,7 @@ import './style.css';
 
 //declaração do title com string
 let title: string = "Myapp"
-const appDiv: HTMLElement = document.getElementById('app');
+ document.getElementById('app.title')=innerHTML;
 //dentro do h1 colocando o template string 
 appDiv.innerHTML = `
 <h1>${title}</h1>
