@@ -11,3 +11,12 @@ console.log("ola mundo");
 for(let i = 1; i <=  10; i++){
   console.log(i);
 }
+
+//lqços e condicionais
+for(let i = 1; i <= 10; i++){
+  if(i%2==0){
+    console.log("Os numeros para são:" + " "+ i)
+  }
+}
+
+
